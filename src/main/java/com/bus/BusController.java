@@ -224,7 +224,7 @@ public class BusController {
 				Date date2 = Date.from(date.atStartOfDay(defaultZoneId).toInstant());
 				List<Double> price = new ArrayList<Double>();
 				double sum = 0;
-				double p = 525.22d;
+				double p = 20d;
 				for (String s : seat.getSeatNo()) {
 					sum = sum + p;
 					price.add(p);
